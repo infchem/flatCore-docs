@@ -1,5 +1,5 @@
-# flatCore-docs
+# flatCore Documentation
 You are welcome to help me improve, complete and translate this documentation.
 
-* English: http://docs.flatcore.org/en/
-* German: http://docs.flatcore.org/de/
+* English: https://flatcore.org/docs/en/
+* German: https://flatcore.org/docs/de/
