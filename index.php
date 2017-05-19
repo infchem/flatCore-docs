@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
+    <meta name="description" content="flatCore CMS Documentation, German and English">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+		<link rel="icon" 
+      type="image/x-icon" 
+      href="/styles/polly/images/fc48.ico">
 
     <title>flatCore CMS Documentation</title>
 
@@ -29,7 +31,7 @@
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation"><a href="http://www.flatCore.org">flatCore.org</a></li>
+            <li role="presentation"><a href="https://flatCore.org">flatCore.org</a></li>
             <li role="presentation"><a href="#">Github</a></li>
           </ul>
         </nav>
@@ -44,13 +46,13 @@
 	        <div class="col-lg-6">
 	          <h4>English</h4>
 	          <p>flatCore CMS Usermanual and Developer Documentation</p>
-	          <p><a href="/en/">docs.flatCore.org/en/</a></p>
+	          <p><a href="/docs/en/">flatCore.org/en/</a></p>
 	        </div>
 	
 	        <div class="col-lg-6">
 	          <h4>German</h4>
 	          <p>flatCore CMS Benutzer- und Developerhandbuch</p>
-	          <p><a href="/de/">docs.flatCore.org/de/</a></p>
+	          <p><a href="/docs/de/">flatCore.org/de/</a></p>
 	        </div>
 	      </div>
       
@@ -62,13 +64,16 @@
 			<hr>
 			
       <footer class="footer">
-        <p>copyright ©, 2016, <a href="http://www.flatCore.org">flatCore.org</a></p>
+        <p>copyright © 2017, <a href="https://flatCore.org">flatCore.org</a></p>
       </footer>
 
     </div> <!-- /container -->
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		
+
+		
   </body>
 </html>
 
