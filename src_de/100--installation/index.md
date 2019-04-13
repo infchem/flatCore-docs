@@ -28,7 +28,16 @@ Die Installation dauert nur wenige Minuten.
 
 ### mod_rewrite
 
+#### Apache
 __Wichtig:__ Damit mod_rewrite funktioniert, muss die Datei ___htaccess__ in __.htaccess__ umbenannt werden. Dateinamen die mit einem Punkt beginnen sind bei den meißten Systemen für das System selbst vorbehalten. Darum ist es am einfachsten Du benennst die Datei erst um, wenn Du sie auf den Server kopiert hast.
+
+#### lighttpd
+In /etc/lighttpd/lighttpd.conf eintragen:
+```
+url.rewrite-if-not-file = (
+        "^/(.*)$" => "/index.php?query=$1"
+)
+```
 
 ### Die Installation
 
